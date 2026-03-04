@@ -7,11 +7,13 @@ body{
   font-optical-sizing: auto;
 }
 
-#banner{
+
+.banner{
     width: 1600px;
     height: 817px;
     background: url(images/banner/banner1.png);
     background-repeat: no-repeat;
+    margin: auto;
 }
 #heading{
     width: 525px;
@@ -47,13 +49,15 @@ body{
 }
 #failures .container{
     width: 1072px;
-    margin: 130px 322px 130px 206px;
+    margin: auto;
+    padding: 130px 322px 130px 206px;
 }
 
 #failures .wraper{
     display: flex;
     align-items: center;
     gap: 87px;
+    
 }
 .fail-content{
     padding-top: 15%;
@@ -80,4 +84,35 @@ body{
 .fail-content ul li i{
     color: green;
     margin-right: 10px;
+}
+
+.plans{
+    margin: auto;
+}
+.plans .plans-container{
+    width: 1141px;
+    margin: auto;
+    text-align: center;
+}
+.plans .plans-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    padding-bottom: 50px;
+}
+
+.plans-container .plans-box{
+display: flex;
+justify-content: space-between;
+
+}
+.plans-box .plan h4{
+ font-size: 30px;
+ font-weight: bold;
+ color: #151414;
+ padding: 24px 0 16px 0 ;
+}
+.plans-box .plan p{
+    font-size: 25px;
+    color: #737272;
 }
