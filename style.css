@@ -41,6 +41,7 @@ body{
     padding-right: 0px;
     font-size: 20px;
     font-weight: 600px;
+    cursor: pointer;
 }
 
 #failures{
@@ -115,4 +116,47 @@ justify-content: space-between;
 .plans-box .plan p{
     font-size: 25px;
     color: #737272;
+}
+
+
+#hand-sec .hand-div{
+    width: 1140px;
+    height: 300px;
+    margin: auto;
+    background: url(images/watch.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 124px;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: url(images/gradient2.png);
+    opacity: 0.9;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 459px;
+    padding: 59px 217px 59px 64px;
+}
+.container h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container .cbtn{
+    width: 160px;
+    height: 64px;
+    background-color: #ffffff;
+    color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 600px;
+    cursor: pointer;
 }
