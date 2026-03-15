@@ -12,8 +12,9 @@ body{
     width: 1600px;
     height: 817px;
     background: url(images/banner/banner1.png);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    margin: auto;
 }
 #heading{
     width: 525px;
@@ -158,5 +159,63 @@ justify-content: space-between;
     margin-top: 24px;
     font-size: 20px;
     font-weight: 600px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #151414;
+    width: 100%;
+    margin-top: 130px;
+
+}
+
+footer .foot-container{
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    gap: 330px;
+}
+
+.future-heading h2{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.future-heading p{
+    color:#f8f8f8d2;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 16px;
+}
+footer .social{
+    display: flex;
+    gap: 15px;
+}
+
+.subscribe h3{
+color: #ffffff;
+font-size: 25px;
+font-weight: 600px;
+padding-bottom: 30px;
+}
+
+.subscribe input{
+    width: 325px;
+    color: #F3F3F3;
+    padding: 20px;
+    border-color: #F3F3F3;
+    border-radius: 8px;
+    background-color: #151414;
+    font-size: 18px;
+}
+
+.subscribe .sub-btn{
+    color: #F15B22;
+    background-color: #ffffff;
+    padding: 20px 36px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
     cursor: pointer;
 }
